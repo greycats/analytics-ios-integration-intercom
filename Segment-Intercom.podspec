@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/segment'
 
   s.ios.deployment_target = '8.0'
-
+  s.static_framework = true
   s.source_files = 'Segment-Intercom/Classes/**/*'
   s.dependency 'Analytics'
   s.dependency 'Intercom'
