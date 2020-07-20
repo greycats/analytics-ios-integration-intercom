@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://segment.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Segment' => 'friends@segment.com' }
-  s.source           = { :git => 'https://github.com/segment-integrations/analytics-ios-integration-intercom.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/greycats/analytics-ios-integration-intercom.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/segment'
 
   s.ios.deployment_target = '8.0'
